@@ -1,1 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="store.png">
+  <title> Westview Sweets </title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="topBtn"> Ascend </button>
+    <nav>
+     <li class="navli"><a href="../index.html"> Home </a></li>
+     <li class="navli"><a href="#DID"> Westview Sweets </a></li>
+     <li class="navli"><a href="#ATT"> Search </a></li>
+     <li class="navli"><a href="#PAR"> Candy </a></li>
+      <li class="navli"><a href="#TIC"> Ice Cream </a></li>
+      <li class="navli"><a href="#FOO"> Jobs </a></li>
+      <li class="navli"><a href="#MER"> Offers </a></li>
+      <li class="navli"><a href="#FAQ"> Checkout </a></li>
+    </nav>
+    <br>
+    <br>
+    <h1 id="DID"> Westview Sweets </h1> 
+    <center><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Colorful_and_Inviting_Candy_Store_%2814867133277%29.jpg" width="500" style="max-width: 100%; border:4px solid hotpink;"></center>
+    <br>
+    <div class="container">
+      <div class="A"><h2 id="ATT">Search</h2>
+        <center>
+          <form autocomplete="off">
+      <input id="myInput" type="text" name="myBox" placeholder="Search...">
+  </form>
+         <br>
+        </center>
+      </div>
+      <div class="B"><h2 id="PAR">Candy</h2>
+        <center><img src="https://i.etsystatic.com/20265160/r/il/34c22a/2517313830/il_570xN.2517313830_r81g.jpg" width="250" style="border:4px solid hotpink;">
+        <img src="https://www.brucescandy.com/cdn/shop/products/bruiser-1-2-inch-jawbreakers-128866-ff_580x.jpg?v=1657386428" width="250" style="border:4px solid hotpink;">
+        <img src="https://cdn1.harryanddavid.com/wcsstore/HarryAndDavid/images/catalog/20_32600_30GK_01exlx.jpg" width="250" style="border:4px solid hotpink;">
+        <img src="https://static01.nyt.com/images/2022/04/27/dining/27gummy1/merlin_205647270_b2a46fdb-1937-4c06-aa78-54a122484914-superJumbo.jpg" width="250" style="border:4px solid hotpink;">
+        <p class="webtext"><strong>(Left to Right) / Lollipops / Jawbreakers / Chocolates / Gummies</strong></p></center>
+      </div>
+      <div class="C"><h2 id="TIC">Ice Cream</h2>
+        <center><img src="https://static.toiimg.com/thumb/63971154.cms?width=573&height=430" width="250" style="border:4px solid hotpink;">
+        <img src="https://joyfoodsunshine.com/wp-content/uploads/2020/06/homemade-chocolate-ice-cream-recipe-7.jpg" width="250" style="border:4px solid hotpink;">
+        <img src="https://www.allrecipes.com/thmb/pH8hoFfytcOT9XVK1DSmxv3L0OU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" width="250" style="border:4px solid hotpink;">
+        <img src="https://cleanfoodcrush.com/wp-content/uploads/2021/09/clean-eating-simple-Homemade-Mint-Chocolate-Chip-Ice-Cream-recipe.jpg" width="250" style="border:4px solid hotpink;">
+        <p class="webtext"><strong>(Left to Right) / Vanilla / Chocolate / Strawberry / Mint</strong></p></center>
+      </div>
+      <div class="D"><h2 id="FOO">Jobs</h2>
+        <center> <form onsubmit="alert('We are not currently hiring, we will update this page when we are hiring again!')";>
+  <input id="bottomBtn" type="submit" value="HIRE APPLICATION"></center>
+          <br>
+      </div>
+      <div class="E"><h2 id="MER">Offers</h2>
+        <center><p class="webtext">Print this webpage and cut these out for free coupons!</p></center>
+        <center><p class="webtext">Buy 1 Candy Get 1 Free!</p></center>
+        <center><p class="webtext">1 Free Small Ice Cream!</p></center>
+        <center><p class="webtext">Weekend Special: Everything 25% Off!</p></center>
+      </div>
+      <div class="F"><h2 id="FAQ">Checkout</h2>
+        <center>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-Eluzua8cg7GSUGoSwF2fqA5JNED1uHi2S_LcRgvfkQ5cxQ/viewform?embedded=true" width="640" height="1155" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </center>
+      </div>
+        <br>
+    </body>
+      </html>
+    <style>
+      #topBtn {
+  position: fixed;
+  cursor: grab;
+  bottom: 2%;
+  right; 3%;
+  font-size: 20px;
+  background-color: pink;
+  border: line purple 1px;
+  border-radius: 8px;
+  padding: 8px;
+  display: none;
+}
 
+#topBtn:hover {
+  background-color: hotpink;
+}
+
+body {
+  background-color: pink;;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  background-color: lightpink;
+  left: 0;
+  top: 0;
+  border: 2px solid hotpink;
+}
+
+.navli {
+  display: inline;
+  float: left;
+  padding: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: .5px .5px .5px white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navli:hover {
+  background-color: white;
+}
+div {
+  border-radius: 10px;
+}
+.href {
+  text-align: center;
+  color: blue;
+  text-decoration-line: underline;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  font-family: Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 1px white;
+  display: grid;
+  height: 60vh;
+   max-width: 100vw;
+  grid-row-gap: 3%;
+  grid-column-gap: .5%;
+}
+h1 {
+  text-align: center;
+  color: hotpink;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+h2 {
+  text-align: center;
+  color: hotpink;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+.A {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+    grid-column: 1/2;
+  text-align: center;
+   max-width: 100%;
+}
+.B {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+    grid-column: 1/2;
+}
+.C {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+    grid-column: 1/2;
+}
+.D {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+}
+.E {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+}
+.F {
+  background-color: lightpink;
+    border: solid 1px hotpink;
+}
+.A:hover {
+  background-color: #FFEAEE;
+}
+.B:hover {
+  background-color: #FFEAEE;
+}
+.C:hover {
+  background-color: #FFEAEE;
+}
+.D:hover {
+  background-color: #FFEAEE;
+}
+.E:hover {
+  background-color: #FFEAEE;
+}
+.F:hover {
+  background-color: #FFEAEE;
+}
+.webtext {
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: .5px .5px .5px white;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100vw;
+}
+
+#bottomBtn {
+  font-size: 20px;
+  cursor: grab;
+  background-color: pink;
+  border: line purple 1px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#bottomBtn:hover {
+  background-color: hotpink;
+}
+
+#myInput {
+  width: 20%;
+  background-color: pink;
+}
+    </style>
+    <script>
+      window.onscroll = function() {hideFunction()};
+
+function hideFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150)
+    document.getElementById("topBtn").style.display="block";
+  else {
+    document.getElementById("topBtn").style.display="none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  
+}
+
+function autocomplete(inp, arr) {
+
+  var currentFocus;
+
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+
+      this.parentNode.appendChild(a);
+
+      for (i = 0; i < arr.length; i++) {
+
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+
+          b = document.createElement("DIV");
+
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+
+          b.addEventListener("click", function(e) {
+
+              inp.value = this.getElementsByTagName("input")[0].value;
+
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        e.preventDefault();
+        if (currentFocus > -1) {
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    if (!x) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+var autoAnswers = ["Lollipops", "Jawbreakers", "Chocolate", "Gummies", "Vanilla Ice Cream", "Chocolate Ice Cream", "Strawberry Ice Cream", "Mint Ice Cream",];
+
+autocomplete(document.getElementById("myInput"), autoAnswers);
+    </script>
